@@ -1,0 +1,43 @@
+{
+    "html.format.wrapAttributes": "force-expand-multiline",
+    "files.exclude": {
+        "public/f2e": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "explorer.compactFolders": false,
+    "todohighlight.keywords": [
+      {
+        "text": "USER:",
+        "color": "#ffffff",
+        "backgroundColor": "#69c0ad",
+        "overviewRulerColor": "#69c0ad"
+      },
+      {
+        "text": "SHARE:",
+        "color": "#ffffff",
+        "backgroundColor": "#7703fc",
+        "overviewRulerColor": "#7703fc"
+      },
+      {
+        "text": "補丁:",
+        "color": "#ffffff",
+        "backgroundColor": "#115599",
+        "overviewRulerColor": "#115599"
+      },
+      {
+        "text": "FeatureFlag:",
+        "color": "#ffffff",
+        "backgroundColor": "#FF8040",
+        "overviewRulerColor": "#7703fc"
+      },
+    ],
+    "search.exclude": {
+      "**/public/f2e": true
+    },
+
+    "editor.minimap.renderCharacters": false,
+
+    "tslint.enable": true,
+    "tslint.autoFixOnSave": true,
+}
