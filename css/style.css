@@ -17,7 +17,14 @@ h1 {
     margin-bottom: 40px;
     font-weight: bold;
 }
+.cpt-community-share {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 .cpt-community-share a {
+    display: block;
     color: #333;
     text-decoration: none;
     padding: 10px 20px;
